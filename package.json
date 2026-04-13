@@ -1,0 +1,15 @@
+{
+  "name": "complaint-system",
+  "version": "1.0.0",
+  "description": "Complaint Management System",
+  "scripts": {
+    "start": "cd frontend && npm start",
+    "dev": "cd backend && npm run dev",
+    "install-frontend": "cd frontend && npm install",
+    "install-backend": "cd backend && npm install"
+  },
+  "workspaces": [
+    "backend",
+    "frontend"
+  ]
+}
